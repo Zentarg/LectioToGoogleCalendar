@@ -1,0 +1,11 @@
+{
+    "users" : [
+        {
+            "name"                  : "",
+            "calID"                 : "",
+            "credentialFileName"    : "",
+            "elevID"                : "",
+            "gymID"                 : ""
+        }
+    ]
+}
