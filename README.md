@@ -1,7 +1,7 @@
 # LectioToGoogleCalendar
 This project takes an individuals schedule from www.lectio.dk, and imports it into their Google calendar.
 
-###Setup
+### Setup
 1. Follow this guide: https://developers.google.com/api-client-library/python/start/installation
 
 2. To use this script, you need to add your credentials to the users.json file:
@@ -12,19 +12,19 @@ This project takes an individuals schedule from www.lectio.dk, and imports it in
 ..*The 'elevID' column is for the student ID lectio has given you.
 ..*The 'gymID' column is for the gymnasium ID lectio has given your gymnasium.
 
-####How to find your calendar ID
+#### How to find your calendar ID
 1. Log in to your google calendar, (https://www.calendar.google.com)
 2. Go to your calendar settings
 3. Scroll down till you find your calendar ID.
 
 Example calendar ID: i7ob50dh0k5n81cj9m5s5vf93s@group.calendar.google.com
 
-####How to find your student ID
+#### How to find your student ID
 1. Log into lectio (https://www.lectio.dk)
 2. Go to your schedule
 3. Look at the url and copy the number that follows 'elevid='
 
-####How to find your gymnasium ID
+#### How to find your gymnasium ID
 1. Find your school on the start site of lectio (https://www.lectio.dk)
 2. Look at the url. The number following 'https://www.lectio.dk/lectio/' and before '/default.aspx' is your gymnasium ID.
 
