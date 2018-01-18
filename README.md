@@ -6,11 +6,11 @@ This project takes an individuals schedule from www.lectio.dk, and imports it in
 
 2. To use this script, you need to add your credentials to the users.json file:
 
-..*The 'Name' column is just your name.
-..*The 'calID' column is for your calendarID.
-..*The 'credentialFileName' column is the name you want for the credential file the script creates.
-..*The 'elevID' column is for the student ID lectio has given you.
-..*The 'gymID' column is for the gymnasium ID lectio has given your gymnasium.
+- The 'Name' column is just your name.
+- The 'calID' column is for your calendarID.
+- The 'credentialFileName' column is the name you want for the credential file the script creates.
+- The 'elevID' column is for the student ID lectio has given you.
+- The 'gymID' column is for the gymnasium ID lectio has given your gymnasium.
 
 #### How to find your calendar ID
 1. Log in to your google calendar, (https://www.calendar.google.com)
