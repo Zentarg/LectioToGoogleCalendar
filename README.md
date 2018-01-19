@@ -2,7 +2,7 @@
 This project takes an individuals schedule from www.lectio.dk, and imports it into their Google calendar.
 
 ### Setup
-1. Follow this guide: https://developers.google.com/api-client-library/python/start/installation
+1. Follow steps 1 and 2 of this guide: https://developers.google.com/google-apps/calendar/quickstart/python 
 
 2. To use this script, you need to add your credentials to the users.json file:
 
@@ -28,10 +28,12 @@ Example calendar ID: i7ob50dh0k5n81cj9m5s5vf93s@group.calendar.google.com
 1. Find your school on the start site of lectio (https://www.lectio.dk)
 2. Look at the url. The number following 'https://www.lectio.dk/lectio/' and before '/default.aspx' is your gymnasium ID.
 
-3. Run the script with python 3.6
+3. Run the script with python 3.6 using a commandline tool
 
 This script was developed by the following:
 
 Zentarg - https://github.com/zentarg
+
 LookACastle - https://github.com/lookacastle
+
 EmilDichmann272 - https://github.com/emildichmann272
