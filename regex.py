@@ -74,4 +74,12 @@ def getTitle(lesson_data):
 		return(title_search.group(0))
 	else:
 		return("")
+
+def getStatus(lesson_data):
+	status_pattern = re.compile(u"(?:(Ændret!)|(Aflyst!))")
+	status_search = re.search(status_pattern, lesson_data)
+	if status_search is not None:
+		return(status_search.group(0) + " - ")
+	else:
+		return("")
 #print(getTitle(sys.argv[1]))

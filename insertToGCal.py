@@ -117,7 +117,7 @@ def main():
             modules += tree.xpath('/html/body/div/form/section/div/div/table/tr[4]/td/div/a/@data-additionalinfo')
         
         for y in range(len(modules)):
-            summary = getTeam(modules[y]) + " - " + getTeacher(modules[y])
+            summary = getStatus(modules[y]) + getTeam(modules[y]) + " - " + getTeacher(modules[y])
             location = getRoom(modules[y])
             description = getTitle(modules[y]) + "\n" +getNote(modules[y]) + "\n" + getAdditionalContent(modules[y])
             print(getTime(modules[y]))
